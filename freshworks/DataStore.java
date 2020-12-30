@@ -51,7 +51,7 @@ public class DataStore {
     // CREATE operation without Time-to-Live property using only Key and Data value pair
     
     
-    public  synchronized void Create(String key, JSONObject value) throws Exception  // ensuring thread safety
+    public  synchronized void Create(String key, JSONObject value) throws Exception  					// ensuring thread safety
     {
     	
     	try 
