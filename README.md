@@ -11,7 +11,9 @@ create itself in a reasonable location on the laptop.
 
 2. A new key-value pair can be added to the data store using the Create operation. The key is always a string - capped at 32chars. The value is always a JSON object - capped at 16KB.
 
-3. If Create is invoked for an existing key, an appropriate error must be returned. 4. A Read operation on a key can be performed by providing the key, and receiving the
+3. If Create is invoked for an existing key, an appropriate error must be returned. 
+
+4. A Read operation on a key can be performed by providing the key, and receiving the
 
 value in response, as a JSON object. 5. A Delete operation can be performed by providing the key. 6. Every key supports setting a Time-To-Live property when it is created. This property is
 
